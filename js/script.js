@@ -19,8 +19,3 @@ linkMenu.forEach((link) => {
 
 openMenu.addEventListener('click', menuOpen);
 closeMenu.addEventListener('click', menuClose);
-
-// Modal Events
-openModal.forEach((button) => {
-  button.addEventListener('click', modalOpen);
-});
